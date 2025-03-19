@@ -29,7 +29,7 @@ import javax.swing.JOptionPane;
         // Strings
         String sAlturaPessoa, sSombraPessoa, sSombraPredio;
 
-        // Entrada de dados
+        // Entrada
         sAlturaPessoa = JOptionPane.showInputDialog(null, "Qual a sua altura (em metros)?");
         AlturaPessoa = Double.parseDouble(sAlturaPessoa);
 
@@ -39,7 +39,6 @@ import javax.swing.JOptionPane;
         sSombraPredio = JOptionPane.showInputDialog(null, "Qual o comprimento da sombra do prédio (em metros)?");
         SombraPredio = Double.parseDouble(sSombraPredio);
 
-        // Cálculo da altura do prédio
         AlturaPredio = (AlturaPessoa * SombraPredio) / SombraPessoa;
 
         // Saída
